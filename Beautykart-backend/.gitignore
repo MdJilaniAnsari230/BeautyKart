@@ -1,0 +1,29 @@
+
+# Maven build output
+target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local credentials
+cookies.txt
+
+# Generated uploaded files
+uploads/
+
+# IDE files
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+.sts4-cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

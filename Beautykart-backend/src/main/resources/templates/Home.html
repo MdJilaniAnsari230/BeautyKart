@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>BeautyKart : Home</title>
+
+	<link rel="stylesheet"
+		  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+	<link rel="stylesheet" th:href="@{/css/Navigation.css}" />
+	<link rel="stylesheet" th:href="@{/css/Home.css}" />
+</head>
+
+<body>
+
+<nav th:replace="~{Navigation::navbar()}"></nav>
+
+<div class="back">
+	<center>
+		<div class="text">
+			<h1>WELCOME TO BEAUTYKART</h1>
+
+			<h3 style="color: darkgreen; font-family: cursive">
+				Where Beauty Begins! <br />
+				Explore our exquisite range of beauty products
+				and discover your true radiance.
+			</h3>
+		</div>
+	</center>
+
+	<video src="/Videos/homeBackground.mp4"
+		   loop autoplay muted></video>
+</div>
+
+</body>
+</html>

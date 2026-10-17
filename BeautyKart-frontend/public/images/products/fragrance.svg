@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Fragrance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf0d3"/><stop offset="1" stop-color="#efd592"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="210" fill="#ffffff" fill-opacity="0.35"/>
+  <rect x="272" y="110" width="56" height="50" rx="8" fill="#c9a24a"/><rect x="288" y="160" width="24" height="30" fill="#b08a3a"/><path d="M225 250 Q225 190 300 190 Q375 190 375 250 L385 380 Q385 420 345 420 L255 420 Q215 420 215 380 Z" fill="#fff" fill-opacity="0.85" stroke="#d9b45a" stroke-width="6"/><ellipse cx="300" cy="350" rx="70" ry="48" fill="#f3dfa6"/>
+  <text x="300" y="505" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="6" fill="#5b3a45">FRAGRANCE</text>
+</svg>

@@ -1,0 +1,28 @@
+
+# Frontend dependencies and build
+BeautyKart-frontend/node_modules/
+BeautyKart-frontend/dist/
+BeautyKart-frontend/dist-ssr/
+
+# Backend build
+Beautykart-backend/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+BeautyKart-frontend/.env
+BeautyKart-frontend/.env.*
+Beautykart-backend/.env
+Beautykart-backend/.env.*
+
+# Local credentials
+Beautykart-backend/cookies.txt
+
+# Generated uploaded files
+Beautykart-backend/uploads/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
